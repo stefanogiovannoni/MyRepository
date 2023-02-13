@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div>.logo{
+    width: 150px;
+    display: inline;
+}
+.banner{
+    width: 950px;
+
+}
+h1{
+    text-align: center;
+}
+.underbanner{
+    background-color: aqua;
+    height:5vh;
+    text-align: center;
+}
+
+nav{
+ 
+   
+    padding: 0.5rem;
+    position: relative;
+    text-align: center;
+}
+
+nav a{
+    color: aliceblue;
+    display: inline-block;
+    background-color: red;
+    width: 8rem;
+    height: 2.5rem;
+}
+
+a:hover{
+    color:black;
+    background-color: red;
+}
+
+.container{
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    display: inline-block;
+
+    
+}
+.container>h3, p{
+    text-align: left;
+    position:sticky;
+    display: inline-block;
+    
+}
