@@ -2,57 +2,97 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: rgba(89, 88, 88, 0.596);
 }
 
-div>.logo{
-    width: 150px;
-    display: inline;
+table{
+    padding: 30px;
+    width:800px;
+    margin:auto;
+    table-layout: fixed;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(10, 251, 26);
+}
+table, th, td{
+    text-align: center;
+    border:1px;
+    border-collapse: collapse;
+    padding:5px;
+    font-size: 20px;
+    
+}
+th{
+    background:red;
+}
+td{
+    background-color: grey;
 }
 .banner{
-    width: 950px;
-
+    width:100%;
+}
+.logo{
+    width:30%;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 10px;
+    background-color:transparent;
+}
+.logo :hover{
+    width:50%;
+    transition: 1.5s;
+    
+}
+img{
+    width:50%;
 }
 h1{
+    background-color: red;
+    color:aliceblue;
     text-align: center;
+    padding: 20px;
+    font-style: italic;
 }
-.underbanner{
-    background-color: aqua;
-    height:5vh;
-    text-align: center;
-}
-
 nav{
- 
-   
-    padding: 0.5rem;
-    position: relative;
-    text-align: center;
-}
-
-nav a{
+    width:100%;
+    background-color: grey;
     color: aliceblue;
-    display: inline-block;
-    background-color: red;
-    width: 8rem;
-    height: 2.5rem;
+    overflow: auto;
+    
+
 }
-
-a:hover{
-    color:black;
-    background-color: red;
+nav a{
+    text-align: center;
+    color:white;
 }
-
-.container{
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    display: inline-block;
-
+nav a:hover{
+    background-color: rgb(72, 255, 0);
+    color: black;
+    transition: 0.5s;
+    text-transform: uppercase;
+}
+.section{
+    background-color: rgba(89, 88, 88, 0.596);
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    width:100%;
     
 }
-.container>h3, p{
-    text-align: left;
-    position:sticky;
-    display: inline-block;
+.section img{
+    margin-right: 10px;
+}
+.section h2{
+    color:rgb(9, 239, 9);
     
+}
+.section p{
+    color:white;
+}
+
+.section2 h2{
+    color:rgb(9, 239, 9);
+}
+.section2 p,ol,ul{
+    color:white;
 }
