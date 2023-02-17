@@ -96,3 +96,11 @@ nav a:hover{
 .section2 p,ol,ul{
     color:white;
 }
+form{
+    padding:20px;
+    margin: 5px;
+    color:white;
+}
+iframe{
+    width:100%;
+}
